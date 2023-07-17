@@ -42,7 +42,7 @@ class _LoginPageState extends State<LoginPage> {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
             content: Text(
-              "Lütfen Giriş Bilgilerinizi Kontrol Edin..",
+              "Lütfen Giriş Bilgilerinizi Kontrol Edin.",
               style: GoogleFonts.quicksand(fontSize: 18, color: Colors.black),
               textAlign: TextAlign.center,
             ),
